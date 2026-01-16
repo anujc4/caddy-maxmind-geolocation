@@ -35,7 +35,6 @@ func init() {
 
 // Allows to filter requests based on source IP country.
 type MaxmindGeolocation struct {
-
 	// The path of the MaxMind GeoLite2-Country.mmdb file.
 	DbPath string `json:"db_path"`
 
